@@ -1,3 +1,10 @@
+/****************************************************** بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ******************************************************/
+
+/**
+ *     author: Shefat Hossen Shoikat
+ *     date  : 2023-02-13 15:06:42
+ **/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,6 +13,7 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define eb emplace_back
 #define pf push_front
+#define MP make_pair
 #define ff first
 #define ss second
 #define fr(s, n) for (ll i = s; i < n; i++)
@@ -32,39 +40,47 @@ int main()
     while (t--)
     {
         ll sum = 0, tmp = 0, res = 0, cnt = 0, count = 0, ans = 0;
-        bool flag = true;
+        bool flag = false, fun = false;
         ll n, k;
         cin >> n >> k;
-        ll a[k + 5];
+        ll a[n + 5];
         fr(0, k) cin >> a[i];
-        res = a[k - 1] - a[k - 2];
-        for (ll i = k - 2; i > 0; i--)
+        vl v;
+        for (ll i = 1; i < k; i++)
         {
-            tmp = a[i] - a[i - 1];
-            if (tmp <= res)
-            {
-                res = tmp;
-            }
-            else
-            {
-                flag = false;
-                break;
-            }
+            v.eb(a[i] - a[i - 1]);
         }
-        if (flag)
+        if (n == 1)
         {
-            if (n == k)
+            flag = true;
+        }
+        else if (is_sorted(v.begin(), v.end()))
+        {
+            fun = true;
+        }
+        if (fun)
+        {
+            ll p = n - k + 1;
+            ll q = v[0];
+            if (a[0] < 0)
             {
-                if (a[0] > res)
+                flag = true;
+            }
+            if (v[0] == 0)
+            {
+                if (a[0] <= 0)
                 {
-                    flag = false;
+                    flag = true;
                 }
             }
             else
             {
-                if (a[0] < 0)
+                ll z = a[0] / q;
+                if (a[0] % q)
+                    z++;
+                if (z <= p)
                 {
-                    flag = false;
+                    flag = true;
                 }
             }
         }

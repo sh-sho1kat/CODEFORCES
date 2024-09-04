@@ -1,0 +1,370 @@
+\documentclass{beamer}
+\usetheme{JuanLesPins}
+\usepackage[sort]{natbib}
+\usepackage{parskip}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{biblatex}
+\addbibresource{ref.bib}
+\usepackage{xcolor,colortbl} %package for table bg
+\setlength{\parskip}{\smallskipamount} 
+
+\title[Group 8]{Insertion and Radix Sort}
+\subtitle{}
+\institute[\LaTeX-LT]{Group 8}
+\author{Jeasmin(2003017)\\Jerin(2003032)\\Neha(2003034)\\Srishty(2003042)\\Ania(2003048)\\Sara(2003058)}
+
+
+
+\begin{document}
+  \frame[plain]{\titlepage}
+%table of conents
+ \frame[t]{ \frametitle{Presentation outline} \tableofcontents }
+
+	\section[Insertion Sort]{Insertion Sort}
+	\subsection[Definition]{Definition}
+%frame 1 definition and example
+    \frame[t]
+    {\frametitle{Insertion Sort}   \vspace{7mm}
+    \textcolor{red}{\textbf{Insertion sort}}\cite{isDF}  is a sorting algorithm that places an unsorted element at
+     its suitable place in each iteration.\\
+    \vspace{5mm}
+    \textbf{Example:}\\
+%example images
+    \begin{columns}
+        \column{0.4\textwidth}
+        \includegraphics[width=\textwidth]{exmpl.jpg}
+    \end{columns}
+  \centering{ Fig 1\cite{isDF}: Sorting an array using insertion sort}
+    }
+    \subsection[Example]{Example of insertion sort}
+    %frame 2 step by step
+    \frame[t]
+    {
+    \frametitle{How does it work?}
+    
+    \begin{columns}
+        \column{0.4\textwidth}
+        \vspace{7mm}
+         %1st image
+        \includegraphics[width=\textwidth]{is1.jpg}
+        \cite{isDF}
+    
+        \vspace{2mm}
+       
+        \column{0.6\textwidth}
+        \begin{itemize}[<+-|alert@+>]
+        \item Initial array
+        \end{itemize}
+    \end{columns}
+    \textbf{Step 1}
+    \begin{columns}
+        \column{0.4\textwidth}
+        \vspace{7mm}
+         %2nd image
+        \includegraphics[width=\textwidth]{is2.jpg}\cite{isDF}
+    
+        \vspace{2mm}
+        
+        \column{0.6\textwidth}
+        \begin{itemize}[<+-|alert@+>]
+      
+        \item key=5
+        \item Copy 9 at index 2
+        \item Replace value of 1st position with key
+        \end{itemize}
+    \end{columns}
+ 
+    }
+%new frame
+    \frame[t]
+    {
+    \frametitle{How does it work?}
+    \textbf{Step 2}
+    \begin{columns}
+        \column{0.4\textwidth}
+        \vspace{7mm}
+         %3rd image
+        \includegraphics[width=\textwidth]{is3.jpg}\cite{isDF}
+    
+        \vspace{2mm}
+        
+        \column{0.6\textwidth}
+        \begin{itemize}[<+-|alert@+>]
+        \item key=1
+        \end{itemize}
+    \end{columns}
+    }
+    %new frame
+    \frame[t]
+    {
+    \frametitle{How does it work?}
+    \textbf{Step 3}
+    \begin{columns}
+        \column{0.4\textwidth}
+        \vspace{7mm}
+         %4th image
+        \includegraphics[width=\textwidth]{is4.jpg}\cite{isDF}
+    
+        \vspace{2mm}
+        
+        \column{0.6\textwidth}
+        \begin{itemize}[<+-|alert@+>]
+        \item key=4
+        \end{itemize}
+    \end{columns}
+    }
+    %new frame
+    \frame[t]
+    {
+        \frametitle{How does it work?}
+        \textbf{Step 4}
+        \begin{columns}
+            \column{0.4\textwidth}
+            \vspace{7mm}
+            %5th image
+            \includegraphics[width=\textwidth]{is5.jpg}
+        
+            \vspace{2mm}
+            
+            \column{0.6\textwidth}
+            \begin{itemize}[<+-|alert@+>]
+            \item key=3
+            \end{itemize}
+        \end{columns}
+        }
+ %frame 3 psudocode 
+\subsection[Psudocode]{Psudocode of insertion sort}
+\frame[t]{
+    \frametitle{Psudocode}
+    \begin{columns}
+        \column{0.8\textwidth}
+        \vspace{3mm}
+        %image
+        \includegraphics[width=\textwidth]{ispsudo.jpg}
+    \end{columns}
+    
+}
+%frame 4 time complexity
+\subsection[Uses]{Advantages/Disadvantages}
+\frame[t]{
+    \frametitle{Advantages/Disadvantages}
+    %table 
+    \begin{table}[!hbt]
+        \centering
+        \setlength{\tabcolsep}{0.2cm}
+        \renewcommand{\arraystretch}{1.5}
+        \label{tab-marks}
+       
+        \begin{tabular}{|p{5cm}|p{5cm}|}
+        \hline \textbf{Advantages}\cite{ISad}  & \textbf{Disadvantages}\cite{ISad} \\
+        \hline \rowcolor{lightgray} The main advantage of the insertion sort is its simplicity. & 
+        The disadvantage of the insertion sort is that it does not perform as well as other, better sorting algorithms \\
+        \hline It also exhibits a good performance when dealing with a small list. &
+        With n-squared steps required for every n element to be sorted, the insertion sort does not deal well with a huge list.\\
+        \hline \rowcolor{lightgray}The insertion sort is an in-place sorting algorithm so the space requirement is minimal. &
+        The insertion sort is particularly useful only when sorting a list of few items.\\
+        \hline
+        \end{tabular}
+        \end{table}
+    
+}
+\section[Radix Sort]{Radix Sort}
+\subsection[Definition]{Definition}
+%frame 1 definition and example
+\frame[t]
+{\frametitle{Radix Sort}   \vspace{1mm}
+\textcolor{red}{\textbf{Radix sort}}\cite{radDef}  is a non-comparative sorting algorithm. Radix sort was developed to sort large integers. As an integer is treated as a string of digits so we can also call it a string sorting algorithm.\\
+\vspace{5mm}
+\textbf{Example:}\\
+%example images
+\begin{columns}
+    \column{0.6\textwidth}
+    \includegraphics[width=\textwidth]{sorted.jpg}
+    
+\end{columns}
+\centering{ Fig 1\cite{radDef}: Sorting an array using radix sort}
+}
+
+\subsection[Example]{Example of radix sort}
+%frame 2 step by step
+\frame[t]
+{
+\frametitle{How does it work?}
+
+\begin{columns}
+    \column{0.8\textwidth}
+    \vspace{7mm}
+     %1st image
+    \includegraphics[width=\textwidth]{Radix-Sort-Array.png}\cite{rad2}
+
+    \vspace{2mm}
+   
+    \column{0.6\textwidth}
+    \begin{itemize}[<+-|alert@+>]
+    \item Initial array
+    \end{itemize}
+\end{columns}
+\textbf{Step 1}
+}
+
+\frame[t]
+{
+\frametitle{How does it work?}
+
+\begin{columns}
+    \column{0.8\textwidth}
+    \vspace{7mm}
+     %2nd image
+    \includegraphics[width=\textwidth]{Radix-Sort--1.png}\cite{rad2}
+
+    \vspace{2mm}
+    
+    \column{0.6\textwidth}
+    \begin{itemize}[<+-|alert@+>]
+  
+    \item focus on least  \\
+    significant bit(LSB) \\
+    and sort array \\
+    according to LSB
+    \end{itemize}
+    
+\end{columns}
+\textbf{Step 2}
+}
+%new frame
+\frame[t]
+{
+\frametitle{How does it work?}
+\begin{columns}
+    \column{0.8\textwidth}
+    \vspace{7mm}
+     %3rd image
+    \includegraphics[width=\textwidth]{Radix-Sort--2.png}\cite{rad2}
+
+    \vspace{2mm}
+    
+    \column{0.6\textwidth}
+    \begin{itemize}[<+-|alert@+>]
+    \item sort according to\\
+     10th possition
+    \end{itemize}
+    
+\end{columns}
+\textbf{Step 3}
+}
+%new frame
+\frame[t]
+{
+\frametitle{How does it work?}
+
+\begin{columns}
+    \column{0.8\textwidth}
+    \vspace{7mm}
+     %4th image
+    \includegraphics[width=\textwidth]{Radix-Sort--3.png}\cite{rad2}
+
+    \vspace{2mm}
+    
+    \column{0.6\textwidth}
+    \begin{itemize}[<+-|alert@+>]
+    \item sort according to\\
+     100th possition
+    \end{itemize}
+   
+\end{columns}
+\textbf{Step 4}
+}
+%new frame
+\frame[t]
+{
+    \frametitle{How does it work?}
+
+    \begin{columns}
+        \column{0.8\textwidth}
+        \vspace{7mm}
+        %5th image
+        \includegraphics[width=\textwidth]{Radix-Sort--4.png}\cite{rad2}
+    
+        \vspace{2mm}
+        
+        \column{0.6\textwidth}
+        \begin{itemize}[<+-|alert@+>]
+        \item sorted array
+        \end{itemize}
+        
+    \end{columns}
+    }
+    
+%frame 3 psudocode 
+\subsection[Psudocode]{Psudocode of radix sort}
+\frame[t]{
+\frametitle{Psudocode}
+\begin{columns}
+    \column{0.8\textwidth}
+    \vspace{3mm}
+    %image
+    \includegraphics[width=\textwidth]{pseudocode.png}\cite{radDef}
+\end{columns}
+
+}
+%frame 4 time complexity
+\subsection[Uses]{Advantages/Disadvantages}
+\frame[t]{
+    \frametitle{Advantages/Disadvantages}
+    %table 
+    \begin{table}[!hbt]
+        \centering
+        \setlength{\tabcolsep}{0.3cm}
+        \renewcommand{\arraystretch}{1.5}
+        \label{tab-marks1}
+       
+        \begin{tabular}{|p{5cm}|p{5cm}|}
+        \hline \textbf{Advantages}\cite{rad3}  & \textbf{Disadvantages}\cite{rad3} \\
+        \hline \rowcolor{lightgray} Radix sort is fast when the keys are short i.e. when the range of the array elements is less. & 
+        Since it depends on digits or letters, Radix Sort is much less flexible than other sorts.\\
+        \hline It is a stable sorting algorithm, meaning that elements with same key value maintain their relative order in sorted output. &
+        It requires a significant amount of memory to hold the count of the number of times each digit value appears.\\
+        \hline \rowcolor{lightgray}It has a linear time complexity,which makes it faster than comparison-based sorting algorithms &
+        It is not efficient for small data sets or data sets with a small number of unique keys.\\
+        \hline
+        \end{tabular}
+        \end{table}
+    
+}
+
+%new sec
+\section[Complexity]{Complexity }
+\subsection{Time \& Space Complexity}
+%time and space complexity frame
+\frame[t]{
+    \frametitle{Time \& Space Complexity}
+    \textbf{\underline{Time Complexity:}}\\
+    \vspace{3mm}
+    \textbf{Insertion Sort} has a time complexity of $O(n^2)$ for average case and worst case
+    and $O(n)$ for best case, where $n$ is the size of array.\\
+    \vspace{3mm}
+    \textbf{Radix Sort} has a time complexity of $O(nd)$, where $n$ is the size of array and $d$ is 
+    number of digits.\\
+    \vspace{5mm}
+    \textbf{\underline{Space Complexity:}}\\
+    \vspace{3mm}
+    \textbf{Insertion Sort} has a space complexity of $O(1)$.\\
+    \vspace{3mm}
+    \textbf{Radix Sort} has a space complexity of $O(n+d)$. 
+}
+\frame[t]{
+    \frametitle{References}
+ 
+ \printbibliography
+}
+\frame[t]{
+\frametitle{}
+\vfill
+\centering
+\includegraphics[width=\textwidth]{thankyou.png}
+}
+
+\end{document}

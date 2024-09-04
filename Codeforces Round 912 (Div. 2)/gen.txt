@@ -1,0 +1,3361 @@
+Test Case 1
+
+5 9
+2 1
+
+
+NO
+
+
+
+Test Case 2
+
+5 2
+3 7
+
+
+YES
+
+
+
+Test Case 3
+
+5 8
+1 4
+
+
+YES
+
+
+
+Test Case 4
+
+5 2
+4 3
+
+
+YES
+
+
+
+Test Case 5
+
+5 1
+9 7
+
+
+NO
+
+
+
+Test Case 6
+
+5 1
+9 3
+
+
+NO
+
+
+
+Test Case 7
+
+5 2
+9 7
+
+
+YES
+
+
+
+Test Case 8
+
+5 7
+3 2
+
+
+NO
+
+
+
+Test Case 9
+
+5 2
+9 4
+
+
+YES
+
+
+
+Test Case 10
+
+5 1
+9 6
+
+
+NO
+
+
+
+Test Case 11
+
+5 7
+2 4
+
+
+YES
+
+
+
+Test Case 12
+
+5 2
+4 1
+
+
+YES
+
+
+
+Test Case 13
+
+5 6
+7 4
+
+
+NO
+
+
+
+Test Case 14
+
+5 4
+2 1
+
+
+YES
+
+
+
+Test Case 15
+
+5 7
+4 1
+
+
+YES
+
+
+
+Test Case 16
+
+5 7
+2 1
+
+
+YES
+
+
+
+Test Case 17
+
+5 1
+3 7
+
+
+YES
+
+
+
+Test Case 18
+
+5 2
+7 8
+
+
+NO
+
+
+
+Test Case 19
+
+5 4
+3 8
+
+
+YES
+
+
+
+Test Case 20
+
+5 9
+8 3
+
+
+YES
+
+
+
+Test Case 21
+
+5 6
+3 7
+
+
+YES
+
+
+
+Test Case 22
+
+5 3
+9 1
+
+
+YES
+
+
+
+Test Case 23
+
+5 9
+4 7
+
+
+YES
+
+
+
+Test Case 24
+
+5 3
+9 6
+
+
+YES
+
+
+
+Test Case 25
+
+5 6
+3 8
+
+
+YES
+
+
+
+Test Case 26
+
+5 2
+1 6
+
+
+YES
+
+
+
+Test Case 27
+
+5 4
+9 1
+
+
+YES
+
+
+
+Test Case 28
+
+5 4
+3 6
+
+
+NO
+
+
+
+Test Case 29
+
+5 2
+8 1
+
+
+NO
+
+
+
+Test Case 30
+
+5 3
+2 4
+
+
+YES
+
+
+
+Test Case 31
+
+5 1
+6 3
+
+
+YES
+
+
+
+Test Case 32
+
+5 8
+9 1
+
+
+YES
+
+
+
+Test Case 33
+
+5 9
+1 4
+
+
+NO
+
+
+
+Test Case 34
+
+5 1
+6 7
+
+
+YES
+
+
+
+Test Case 35
+
+5 3
+8 9
+
+
+YES
+
+
+
+Test Case 36
+
+5 3
+4 6
+
+
+YES
+
+
+
+Test Case 37
+
+5 2
+3 8
+
+
+NO
+
+
+
+Test Case 38
+
+5 4
+3 7
+
+
+YES
+
+
+
+Test Case 39
+
+5 1
+4 2
+
+
+YES
+
+
+
+Test Case 40
+
+5 4
+7 1
+
+
+YES
+
+
+
+Test Case 41
+
+5 1
+3 9
+
+
+NO
+
+
+
+Test Case 42
+
+5 7
+6 8
+
+
+YES
+
+
+
+Test Case 43
+
+5 1
+7 2
+
+
+YES
+
+
+
+Test Case 44
+
+5 6
+9 8
+
+
+YES
+
+
+
+Test Case 45
+
+5 7
+6 1
+
+
+YES
+
+
+
+Test Case 46
+
+5 4
+2 8
+
+
+YES
+
+
+
+Test Case 47
+
+5 1
+4 6
+
+
+YES
+
+
+
+Test Case 48
+
+5 8
+7 6
+
+
+YES
+
+
+
+Test Case 49
+
+5 3
+9 4
+
+
+YES
+
+
+
+Test Case 50
+
+5 2
+8 4
+
+
+NO
+
+
+
+Test Case 51
+
+5 7
+6 3
+
+
+NO
+
+
+
+Test Case 52
+
+5 3
+7 6
+
+
+NO
+
+
+
+Test Case 53
+
+5 6
+8 2
+
+
+YES
+
+
+
+Test Case 54
+
+5 1
+6 9
+
+
+NO
+
+
+
+Test Case 55
+
+5 9
+2 8
+
+
+YES
+
+
+
+Test Case 56
+
+5 3
+1 6
+
+
+YES
+
+
+
+Test Case 57
+
+5 6
+2 9
+
+
+YES
+
+
+
+Test Case 58
+
+5 6
+7 8
+
+
+YES
+
+
+
+Test Case 59
+
+5 2
+7 9
+
+
+YES
+
+
+
+Test Case 60
+
+5 6
+3 1
+
+
+YES
+
+
+
+Test Case 61
+
+5 3
+9 7
+
+
+NO
+
+
+
+Test Case 62
+
+5 8
+2 7
+
+
+NO
+
+
+
+Test Case 63
+
+5 9
+6 3
+
+
+YES
+
+
+
+Test Case 64
+
+5 9
+8 1
+
+
+NO
+
+
+
+Test Case 65
+
+5 9
+7 1
+
+
+NO
+
+
+
+Test Case 66
+
+5 8
+4 7
+
+
+YES
+
+
+
+Test Case 67
+
+5 2
+3 9
+
+
+YES
+
+
+
+Test Case 68
+
+5 1
+2 7
+
+
+YES
+
+
+
+Test Case 69
+
+5 8
+6 7
+
+
+YES
+
+
+
+Test Case 70
+
+5 9
+4 1
+
+
+NO
+
+
+
+Test Case 71
+
+5 2
+1 4
+
+
+YES
+
+
+
+Test Case 72
+
+5 6
+7 2
+
+
+YES
+
+
+
+Test Case 73
+
+5 3
+7 2
+
+
+NO
+
+
+
+Test Case 74
+
+5 9
+2 3
+
+
+YES
+
+
+
+Test Case 75
+
+5 9
+3 8
+
+
+YES
+
+
+
+Test Case 76
+
+5 3
+2 6
+
+
+YES
+
+
+
+Test Case 77
+
+5 9
+7 4
+
+
+YES
+
+
+
+Test Case 78
+
+5 1
+9 2
+
+
+NO
+
+
+
+Test Case 79
+
+5 7
+2 3
+
+
+NO
+
+
+
+Test Case 80
+
+5 8
+9 6
+
+
+YES
+
+
+
+Test Case 81
+
+5 4
+9 7
+
+
+YES
+
+
+
+Test Case 82
+
+5 7
+8 4
+
+
+YES
+
+
+
+Test Case 83
+
+5 8
+1 3
+
+
+YES
+
+
+
+Test Case 84
+
+5 9
+8 2
+
+
+YES
+
+
+
+Test Case 85
+
+5 7
+1 8
+
+
+YES
+
+
+
+Test Case 86
+
+5 3
+8 4
+
+
+YES
+
+
+
+Test Case 87
+
+5 9
+7 3
+
+
+YES
+
+
+
+Test Case 88
+
+5 1
+3 4
+
+
+YES
+
+
+
+Test Case 89
+
+5 4
+9 2
+
+
+YES
+
+
+
+Test Case 90
+
+5 3
+9 2
+
+
+YES
+
+
+
+Test Case 91
+
+5 4
+2 6
+
+
+NO
+
+
+
+Test Case 92
+
+5 8
+6 4
+
+
+YES
+
+
+
+Test Case 93
+
+5 8
+2 6
+
+
+NO
+
+
+
+Test Case 94
+
+5 6
+4 9
+
+
+NO
+
+
+
+Test Case 95
+
+5 9
+2 7
+
+
+YES
+
+
+
+Test Case 96
+
+5 9
+6 2
+
+
+YES
+
+
+
+Test Case 97
+
+5 2
+6 7
+
+
+YES
+
+
+
+Test Case 98
+
+5 3
+6 1
+
+
+YES
+
+
+
+Test Case 99
+
+5 6
+2 4
+
+
+NO
+
+
+
+Test Case 100
+
+5 3
+6 8
+
+
+YES
+
+
+
+Test Case 101
+
+5 8
+3 9
+
+
+YES
+
+
+
+Test Case 102
+
+5 8
+3 4
+
+
+YES
+
+
+
+Test Case 103
+
+5 3
+2 8
+
+
+YES
+
+
+
+Test Case 104
+
+5 6
+7 1
+
+
+YES
+
+
+
+Test Case 105
+
+5 8
+7 1
+
+
+YES
+
+
+
+Test Case 106
+
+5 3
+7 9
+
+
+NO
+
+
+
+Test Case 107
+
+5 7
+8 2
+
+
+YES
+
+
+
+Test Case 108
+
+5 9
+1 2
+
+
+NO
+
+
+
+Test Case 109
+
+5 8
+7 3
+
+
+YES
+
+
+
+Test Case 110
+
+5 8
+2 9
+
+
+NO
+
+
+
+Test Case 111
+
+5 2
+6 8
+
+
+NO
+
+
+
+Test Case 112
+
+5 7
+9 6
+
+
+YES
+
+
+
+Test Case 113
+
+5 1
+8 4
+
+
+YES
+
+
+
+Test Case 114
+
+5 4
+7 2
+
+
+YES
+
+
+
+Test Case 115
+
+5 6
+4 7
+
+
+NO
+
+
+
+Test Case 116
+
+5 4
+6 9
+
+
+NO
+
+
+
+Test Case 117
+
+5 3
+6 4
+
+
+YES
+
+
+
+Test Case 118
+
+5 4
+7 9
+
+
+YES
+
+
+
+Test Case 119
+
+5 2
+3 1
+
+
+YES
+
+
+
+Test Case 120
+
+5 3
+8 1
+
+
+YES
+
+
+
+Test Case 121
+
+5 1
+6 2
+
+
+YES
+
+
+
+Test Case 122
+
+5 8
+9 7
+
+
+YES
+
+
+
+Test Case 123
+
+5 8
+1 9
+
+
+YES
+
+
+
+Test Case 124
+
+5 6
+9 3
+
+
+YES
+
+
+
+Test Case 125
+
+5 1
+8 7
+
+
+YES
+
+
+
+Test Case 126
+
+5 7
+3 1
+
+
+NO
+
+
+
+Test Case 127
+
+5 7
+4 2
+
+
+YES
+
+
+
+Test Case 128
+
+5 6
+2 7
+
+
+YES
+
+
+
+Test Case 129
+
+5 3
+6 9
+
+
+YES
+
+
+
+Test Case 130
+
+5 3
+1 7
+
+
+NO
+
+
+
+Test Case 131
+
+5 3
+9 8
+
+
+YES
+
+
+
+Test Case 132
+
+5 3
+1 9
+
+
+YES
+
+
+
+Test Case 133
+
+5 9
+6 4
+
+
+YES
+
+
+
+Test Case 134
+
+5 2
+3 6
+
+
+YES
+
+
+
+Test Case 135
+
+5 2
+1 9
+
+
+YES
+
+
+
+Test Case 136
+
+5 8
+1 2
+
+
+NO
+
+
+
+Test Case 137
+
+5 9
+2 6
+
+
+YES
+
+
+
+Test Case 138
+
+5 7
+8 9
+
+
+YES
+
+
+
+Test Case 139
+
+5 2
+9 6
+
+
+YES
+
+
+
+Test Case 140
+
+5 1
+8 2
+
+
+YES
+
+
+
+Test Case 141
+
+5 4
+6 1
+
+
+NO
+
+
+
+Test Case 142
+
+5 7
+9 1
+
+
+YES
+
+
+
+Test Case 143
+
+5 7
+4 8
+
+
+YES
+
+
+
+Test Case 144
+
+5 4
+9 8
+
+
+YES
+
+
+
+Test Case 145
+
+5 3
+7 8
+
+
+NO
+
+
+
+Test Case 146
+
+5 9
+8 4
+
+
+YES
+
+
+
+Test Case 147
+
+5 6
+1 8
+
+
+YES
+
+
+
+Test Case 148
+
+5 2
+3 4
+
+
+YES
+
+
+
+Test Case 149
+
+5 6
+4 1
+
+
+NO
+
+
+
+Test Case 150
+
+5 2
+8 7
+
+
+NO
+
+
+
+Test Case 151
+
+5 8
+3 1
+
+
+YES
+
+
+
+Test Case 152
+
+5 9
+6 7
+
+
+YES
+
+
+
+Test Case 153
+
+5 7
+6 4
+
+
+YES
+
+
+
+Test Case 154
+
+5 3
+2 1
+
+
+YES
+
+
+
+Test Case 155
+
+5 3
+8 2
+
+
+YES
+
+
+
+Test Case 156
+
+5 7
+4 3
+
+
+NO
+
+
+
+Test Case 157
+
+5 6
+1 3
+
+
+YES
+
+
+
+Test Case 158
+
+5 7
+3 8
+
+
+NO
+
+
+
+Test Case 159
+
+5 1
+4 9
+
+
+NO
+
+
+
+Test Case 160
+
+5 2
+4 9
+
+
+YES
+
+
+
+Test Case 161
+
+5 1
+8 6
+
+
+YES
+
+
+
+Test Case 162
+
+5 1
+3 6
+
+
+YES
+
+
+
+Test Case 163
+
+5 3
+7 4
+
+
+NO
+
+
+
+Test Case 164
+
+5 9
+1 3
+
+
+NO
+
+
+
+Test Case 165
+
+5 1
+2 4
+
+
+YES
+
+
+
+Test Case 166
+
+5 6
+9 1
+
+
+YES
+
+
+
+Test Case 167
+
+5 2
+4 8
+
+
+NO
+
+
+
+Test Case 168
+
+5 1
+2 3
+
+
+YES
+
+
+
+Test Case 169
+
+5 4
+2 9
+
+
+YES
+
+
+
+Test Case 170
+
+5 9
+6 1
+
+
+NO
+
+
+
+Test Case 171
+
+5 1
+6 8
+
+
+YES
+
+
+
+Test Case 172
+
+5 4
+8 7
+
+
+YES
+
+
+
+Test Case 173
+
+5 6
+8 7
+
+
+YES
+
+
+
+Test Case 174
+
+5 8
+1 7
+
+
+YES
+
+
+
+Test Case 175
+
+5 4
+1 6
+
+
+NO
+
+
+
+Test Case 176
+
+5 1
+4 3
+
+
+YES
+
+
+
+Test Case 177
+
+5 8
+7 4
+
+
+YES
+
+
+
+Test Case 178
+
+5 8
+6 1
+
+
+YES
+
+
+
+Test Case 179
+
+5 3
+4 9
+
+
+YES
+
+
+
+Test Case 180
+
+5 7
+3 4
+
+
+NO
+
+
+
+Test Case 181
+
+5 4
+7 8
+
+
+YES
+
+
+
+Test Case 182
+
+5 1
+3 8
+
+
+YES
+
+
+
+Test Case 183
+
+5 1
+4 7
+
+
+YES
+
+
+
+Test Case 184
+
+5 1
+3 2
+
+
+YES
+
+
+
+Test Case 185
+
+5 1
+9 4
+
+
+NO
+
+
+
+Test Case 186
+
+5 4
+6 2
+
+
+NO
+
+
+
+Test Case 187
+
+5 7
+2 6
+
+
+YES
+
+
+
+Test Case 188
+
+5 6
+9 2
+
+
+YES
+
+
+
+Test Case 189
+
+5 6
+4 8
+
+
+NO
+
+
+
+Test Case 190
+
+5 6
+7 3
+
+
+YES
+
+
+
+Test Case 191
+
+5 6
+8 4
+
+
+NO
+
+
+
+Test Case 192
+
+5 1
+8 9
+
+
+NO
+
+
+
+Test Case 193
+
+5 6
+8 9
+
+
+YES
+
+
+
+Test Case 194
+
+5 2
+1 3
+
+
+YES
+
+
+
+Test Case 195
+
+5 4
+8 9
+
+
+YES
+
+
+
+Test Case 196
+
+5 9
+4 2
+
+
+YES
+
+
+
+Test Case 197
+
+5 2
+7 6
+
+
+YES
+
+
+
+Test Case 198
+
+5 8
+6 3
+
+
+YES
+
+
+
+Test Case 199
+
+5 3
+4 2
+
+
+YES
+
+
+
+Test Case 200
+
+5 2
+1 8
+
+
+NO
+
+
+
+Test Case 201
+
+5 8
+7 2
+
+
+NO
+
+
+
+Test Case 202
+
+5 8
+9 2
+
+
+NO
+
+
+
+Test Case 203
+
+5 2
+7 3
+
+
+YES
+
+
+
+Test Case 204
+
+5 3
+1 4
+
+
+YES
+
+
+
+Test Case 205
+
+5 9
+4 6
+
+
+YES
+
+
+
+Test Case 206
+
+5 9
+8 7
+
+
+YES
+
+
+
+Test Case 207
+
+5 3
+7 1
+
+
+NO
+
+
+
+Test Case 208
+
+5 7
+9 2
+
+
+YES
+
+
+
+Test Case 209
+
+5 8
+4 2
+
+
+NO
+
+
+
+Test Case 210
+
+5 7
+8 6
+
+
+YES
+
+
+
+Test Case 211
+
+5 3
+6 2
+
+
+YES
+
+
+
+Test Case 212
+
+5 8
+9 3
+
+
+YES
+
+
+
+Test Case 213
+
+5 8
+2 4
+
+
+NO
+
+
+
+Test Case 214
+
+5 9
+2 4
+
+
+YES
+
+
+
+Test Case 215
+
+5 6
+9 7
+
+
+YES
+
+
+
+Test Case 216
+
+5 2
+6 3
+
+
+YES
+
+
+
+Test Case 217
+
+5 7
+8 1
+
+
+YES
+
+
+
+Test Case 218
+
+5 7
+2 8
+
+
+YES
+
+
+
+Test Case 219
+
+5 6
+3 9
+
+
+YES
+
+
+
+Test Case 220
+
+5 8
+2 1
+
+
+NO
+
+
+
+Test Case 221
+
+5 7
+4 9
+
+
+YES
+
+
+
+Test Case 222
+
+5 6
+4 3
+
+
+NO
+
+
+
+Test Case 223
+
+5 4
+7 6
+
+
+NO
+
+
+
+Test Case 224
+
+5 7
+6 2
+
+
+YES
+
+
+
+Test Case 225
+
+5 7
+3 6
+
+
+NO
+
+
+
+Test Case 226
+
+5 4
+8 6
+
+
+NO
+
+
+
+Test Case 227
+
+5 7
+4 6
+
+
+YES
+
+
+
+Test Case 228
+
+5 3
+2 9
+
+
+YES
+
+
+
+Test Case 229
+
+5 8
+6 9
+
+
+YES
+
+
+
+Test Case 230
+
+5 1
+7 3
+
+
+YES
+
+
+
+Test Case 231
+
+5 4
+8 1
+
+
+YES
+
+
+
+Test Case 232
+
+5 4
+1 2
+
+
+YES
+
+
+
+Test Case 233
+
+5 3
+4 7
+
+
+NO
+
+
+
+Test Case 234
+
+5 6
+1 9
+
+
+YES
+
+
+
+Test Case 235
+
+5 1
+7 9
+
+
+NO
+
+
+
+Test Case 236
+
+5 4
+7 3
+
+
+YES
+
+
+
+Test Case 237
+
+5 2
+7 1
+
+
+YES
+
+
+
+Test Case 238
+
+5 8
+2 3
+
+
+NO
+
+
+
+Test Case 239
+
+5 2
+6 1
+
+
+YES
+
+
+
+Test Case 240
+
+5 2
+8 3
+
+
+NO
+
+
+
+Test Case 241
+
+5 7
+1 6
+
+
+YES
+
+
+
+Test Case 242
+
+5 9
+1 7
+
+
+NO
+
+
+
+Test Case 243
+
+5 3
+1 8
+
+
+YES
+
+
+
+Test Case 244
+
+5 4
+2 7
+
+
+YES
+
+
+
+Test Case 245
+
+5 4
+3 1
+
+
+YES
+
+
+
+Test Case 246
+
+5 9
+7 6
+
+
+YES
+
+
+
+Test Case 247
+
+5 9
+3 6
+
+
+YES
+
+
+
+Test Case 248
+
+5 8
+3 2
+
+
+NO
+
+
+
+Test Case 249
+
+5 6
+7 9
+
+
+YES
+
+
+
+Test Case 250
+
+5 9
+3 2
+
+
+YES
+
+
+
+Test Case 251
+
+5 4
+8 2
+
+
+YES
+
+
+
+Test Case 252
+
+5 9
+3 7
+
+
+YES
+
+
+
+Test Case 253
+
+5 6
+2 3
+
+
+YES
+
+
+
+Test Case 254
+
+5 8
+1 6
+
+
+YES
+
+
+
+Test Case 255
+
+5 2
+6 4
+
+
+YES
+
+
+
+Test Case 256
+
+5 3
+1 2
+
+
+YES
+
+
+
+Test Case 257
+
+5 9
+3 1
+
+
+NO
+
+
+
+Test Case 258
+
+5 3
+4 8
+
+
+YES
+
+
+
+Test Case 259
+
+5 1
+4 8
+
+
+YES
+
+
+
+Test Case 260
+
+5 7
+1 3
+
+
+NO
+
+
+
+Test Case 261
+
+5 8
+3 7
+
+
+YES
+
+
+
+Test Case 262
+
+5 6
+4 2
+
+
+NO
+
+
+
+Test Case 263
+
+5 4
+9 3
+
+
+YES
+
+
+
+Test Case 264
+
+5 6
+1 7
+
+
+YES
+
+
+
+Test Case 265
+
+5 4
+6 3
+
+
+NO
+
+
+
+Test Case 266
+
+5 4
+1 3
+
+
+YES
+
+
+
+Test Case 267
+
+5 7
+1 9
+
+
+YES
+
+
+
+Test Case 268
+
+5 7
+3 9
+
+
+NO
+
+
+
+Test Case 269
+
+5 6
+2 8
+
+
+YES
+
+
+
+Test Case 270
+
+5 7
+9 3
+
+
+NO
+
+
+
+Test Case 271
+
+5 9
+1 8
+
+
+NO
+
+
+
+Test Case 272
+
+5 3
+6 7
+
+
+NO
+
+
+
+Test Case 273
+
+5 6
+8 3
+
+
+YES
+
+
+
+Test Case 274
+
+5 4
+6 7
+
+
+NO
+
+
+
+Test Case 275
+
+5 2
+7 4
+
+
+YES
+
+
+
+Test Case 276
+
+5 1
+7 6
+
+
+YES
+
+
+
+Test Case 277
+
+5 6
+3 2
+
+
+YES
+
+
+
+Test Case 278
+
+5 7
+9 8
+
+
+YES
+
+
+
+Test Case 279
+
+5 9
+7 8
+
+
+YES
+
+
+
+Test Case 280
+
+5 8
+4 9
+
+
+YES
+
+
+
+Test Case 281
+
+5 9
+4 8
+
+
+YES
+
+
+
+Test Case 282
+
+5 7
+6 9
+
+
+YES
+
+
+
+Test Case 283
+
+5 1
+2 6
+
+
+YES
+
+
+
+Test Case 284
+
+5 4
+3 2
+
+
+YES
+
+
+
+Test Case 285
+
+5 9
+4 3
+
+
+YES
+
+
+
+Test Case 286
+
+5 9
+3 4
+
+
+YES
+
+
+
+Test Case 287
+
+5 7
+2 9
+
+
+YES
+
+
+
+Test Case 288
+
+5 8
+4 1
+
+
+YES
+
+
+
+Test Case 289
+
+5 1
+2 9
+
+
+NO
+
+
+
+Test Case 290
+
+5 6
+8 1
+
+
+YES
+
+
+
+Test Case 291
+
+5 1
+2 8
+
+
+YES
+
+
+
+Test Case 292
+
+5 4
+3 9
+
+
+YES
+
+
+
+Test Case 293
+
+5 9
+8 6
+
+
+YES
+
+
+
+Test Case 294
+
+5 9
+7 2
+
+
+YES
+
+
+
+Test Case 295
+
+5 7
+1 2
+
+
+YES
+
+
+
+Test Case 296
+
+5 3
+8 6
+
+
+YES
+
+
+
+Test Case 297
+
+5 8
+4 6
+
+
+YES
+
+
+
+Test Case 298
+
+5 2
+4 6
+
+
+YES
+
+
+
+Test Case 299
+
+5 6
+1 4
+
+
+NO
+
+
+
+Test Case 300
+
+5 4
+9 6
+
+
+NO
+
+
+
+Test Case 301
+
+5 3
+8 7
+
+
+NO
+
+
+
+Test Case 302
+
+5 2
+9 1
+
+
+YES
+
+
+
+Test Case 303
+
+5 8
+7 9
+
+
+YES
+
+
+
+Test Case 304
+
+5 7
+9 4
+
+
+YES
+
+
+
+Test Case 305
+
+5 1
+6 4
+
+
+YES
+
+
+
+Test Case 306
+
+5 2
+1 7
+
+
+YES
+
+
+
+Test Case 307
+
+5 9
+6 8
+
+
+YES
+
+
+
+Test Case 308
+
+5 2
+6 9
+
+
+YES
+
+
+
+Test Case 309
+
+5 3
+2 7
+
+
+NO
+
+
+
+Test Case 310
+
+5 4
+6 8
+
+
+NO
+
+
+
+Test Case 311
+
+5 4
+2 3
+
+
+YES
+
+
+
+Test Case 312
+
+5 1
+7 8
+
+
+YES
+
+
+
+Test Case 313
+
+5 1
+8 3
+
+
+YES
+
+
+
+Test Case 314
+
+5 8
+9 4
+
+
+YES
+
+
+
+Test Case 315
+
+5 6
+1 2
+
+
+YES
+
+
+
+Test Case 316
+
+5 6
+9 4
+
+
+NO
+
+
+
+Test Case 317
+
+5 4
+1 9
+
+
+YES
+
+
+
+Test Case 318
+
+5 7
+1 4
+
+
+YES
+
+
+
+Test Case 319
+
+5 2
+8 6
+
+
+NO
+
+
+
+Test Case 320
+
+5 1
+7 4
+
+
+YES
+
+
+
+Test Case 321
+
+5 3
+4 1
+
+
+YES
+
+
+
+Test Case 322
+
+5 1
+9 8
+
+
+NO
+
+
+
+Test Case 323
+
+5 6
+3 4
+
+
+NO
+
+
+
+Test Case 324
+
+5 2
+9 3
+
+
+YES
+
+
+
+Test Case 325
+
+5 8
+3 6
+
+
+YES
+
+
+
+Test Case 326
+
+5 8
+4 3
+
+
+YES
+
+
+
+Test Case 327
+
+5 9
+1 6
+
+
+NO
+
+
+
+Test Case 328
+
+5 8
+6 2
+
+
+NO
+
+
+
+Test Case 329
+
+5 4
+1 8
+
+
+YES
+
+
+
+Test Case 330
+
+5 2
+9 8
+
+
+NO
+
+
+
+Test Case 331
+
+5 4
+1 7
+
+
+YES
+
+
+
+Test Case 332
+
+5 7
+8 3
+
+
+NO
+
+
+
+Test Case 333
+
+5 4
+8 3
+
+
+YES
+
+
+
+Test Case 334
+
+5 6
+2 1
+
+
+YES
+
+
+
+Test Case 335
+
+5 2
+8 9
+
+
+NO
+
+
+
+Test Case 336
+
+5 2
+4 7
+
+
+YES
+
+
+
+336
