@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 2024-09-04 02:02:06
+// 2024-09-14 21:10:25
 #define fastio ios_base::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL)
 #define mod 1000000007
 #define inf (1LL << 62)
@@ -30,14 +30,30 @@ int main()
     {
         ll sum = 0, tmp = 0, res = 0, cnt = 0, ct = 0, ans = 0, mn = LONG_MAX, mx = 0;
         bool flag = true, fun = false, f = false;
-        ll a, b, c;
-        cin >> a >> b >> c;
-        a = (a + c - 1) / c;
-        b = (b + c - 1) / c;
-        if (a <= b)
-            cout << 2 * b << nl;
-        else
-            cout << 2 * a - 1 << nl;
+        ll n, m, q;
+        cin >> n >> m >> q;
+        vl a;
+        for (ll i = 1; i <= m; i++)
+        {
+            ll p;
+            cin >> p;
+            a.eb(p);
+        }
+        a.eb(0);
+        a.eb(inf);
+        sort(a.begin(), a.end());
+        while (q--)
+        {
+            ll pos;
+            cin >> pos;
+            auto itr = lower_bound(a.begin(), a.end(), pos) - a.begin();
+            if (a[itr - 1] == 0)
+                cout << a[itr] - 1 << nl;
+            else if (a[itr] == inf)
+                cout << n - a[itr-1] << nl;
+            else
+                cout << (a[itr] - a[itr - 1]) / 2 << nl;
+        }
     }
     return SH;
 }
