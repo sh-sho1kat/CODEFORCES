@@ -1,13 +1,7 @@
-///********************** بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ **********************///
-
-/**
- *     author: Shefat Hossen Shoikat
- *     date  : 2024-02-27 20:36:37
- **/
-
 #include <bits/stdc++.h>
 using namespace std;
 
+// 2024-09-20 21:20:16
 #define fastio ios_base::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL)
 #define mod 1000000007
 #define inf (1LL << 62)
@@ -15,8 +9,8 @@ using namespace std;
 #define eb emplace_back
 #define ff first
 #define ss second
-#define yes cout << "YES" << endl
-#define no cout << "NO" << endl
+#define yes cout << "YES" << nl
+#define no cout << "NO" << nl
 #define dtob(bits, n) bitset<bits>(n).to_string()
 #define btod(bin) stoll(bin, nullptr, 2)
 #define ok cout << "Eureka" << nl
@@ -38,12 +32,13 @@ int main()
         bool flag = true, fun = false, f = false;
         ll n;
         cin >> n;
+        ll a[n + 5] = {};
         for (ll i = 1; i <= n; i++)
         {
-            ll p;
-            cin >> p;
-            sum += abs(p);
+            cin >> a[i];
+            sum += a[i];
         }
+        sum -= 2 * a[n - 1];
         cout << sum << nl;
     }
     return SH;
