@@ -29,26 +29,10 @@ typedef vector<ll> vl;
 typedef vector<pll> vpll;
 
 #define ok cout << "Eureka" << nl
-#define ap(arr, n)             \
-    for (ll i = 0; i < n; i++) \
-        cout << arr[i] << " "; \
-    cout << nl;
-ll anse;
+
 ll a[2023][2023];
 ll dp[2023][2023];
-void func(ll r, ll c)
-{
-
-    if (dp[r][c])
-        return;
-    dp[r][c] = 1;
-    if (a[r][c] == 0)
-        return;
-    anse += a[r][c] * a[r][c];
-    // cout << a[r][c] << nl;
-    func(r - 1, c);
-    func(r - 1, c - 1);
-}
+ll dp1[2023][2023];
 
 int main()
 {
@@ -62,17 +46,11 @@ int main()
         for (ll j = 1; j <= tt; j++)
         {
             a[i][j] = k;
+            dp1[i][j] = k * k + dp1[i - 1][j - 1];
+            dp[i][j] = dp1[i][j] + dp[i - 1][j];
             k++;
         }
         tt++;
-    }
-    for (ll i = 1; i <= 10; i++)
-    {
-        for (ll j = 1; j <= 10; j++)
-        {
-            cout << a[i][j] << " ";
-        }
-        cout << nl;
     }
     while (t--)
     {
@@ -89,12 +67,8 @@ int main()
                 break;
             }
         }
-        memset(dp, 0, sizeof(dp));
         clm = n - a[row][1] + 1;
-        // cout << row << " " << clm << nl;
-        func(row, clm);
-        cout << anse << nl;
-        anse = 0;
+        cout << dp[row][clm] << nl;
     }
     return SH;
 }

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.tex": "tex",
+        "vector": "cpp",
+        "map": "cpp",
+        "cstdlib": "cpp"
+    }
+}
