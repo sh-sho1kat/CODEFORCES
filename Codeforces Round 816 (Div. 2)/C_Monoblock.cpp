@@ -1,0 +1,95 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// 2025-05-10 00:31:48
+#define fastio ios_base::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL)
+#define mod 1000000007
+#define inf (1LL << 62)
+#define all(x) x.begin(), x.end()
+#define eb push_back
+#define ff first
+#define ss second
+#define yes cout << "YES" << nl
+#define no cout << "NO" << nl
+#define dtob(bits, n) bitset<bits>(n).to_string()
+#define btod(bin) stoll(bin, nullptr, 2)
+#define ok cout << "Eureka" << nl
+#define nl '\n'
+#define SH 0
+typedef long long ll;
+typedef pair<ll, ll> pll;
+typedef vector<ll> vl;
+typedef vector<pll> vpll;
+
+int main()
+{
+    fastio;
+    ll n, q;
+    ll res = 0;
+    ll sum = 0;
+    cin >> n >> q;
+    ll a[n + 5] = {};
+    for (ll i = 1; i <= n; i++)
+        a[i] = i, sum += a[i];
+    for (ll i = n; i >= 1; i--)
+    {
+        res += sum;
+        sum -= a[i];
+    }
+    for (ll i = 1; i <= n; i++)
+    {
+        ll prev = a[i];
+        cin >> a[i];
+        ll cur = a[i];
+        if (a[i - 1] != cur and a[i - 1] == prev)
+        {
+            res += i - 1;
+            res += (i - 1) * (n - i);
+        }
+        if (a[i - 1] == cur and a[i - 1] != prev)
+        {
+            res -= i - 1;
+            res -= (i - 1) * (n - i);
+        }
+        if (a[i + 1] != cur and a[i + 1] == prev)
+        {
+            res += n - i;
+            res += (i - 1) * (n - i);
+        }
+        if (a[i + 1] == cur and a[i + 1] != prev)
+        {
+            res -= n - i;
+            res -= (i - 1) * (n - i);
+        }
+    }
+    while (q--)
+    {
+        ll pos, val;
+        cin >> pos >> val;
+        ll prev = a[pos];
+        ll cur = val;
+        if (a[pos - 1] != cur and a[pos - 1] == prev)
+        {
+            res += pos - 1;
+            res += (pos - 1) * (n - pos);
+        }
+        if (a[pos - 1] == cur and a[pos - 1] != prev)
+        {
+            res -= pos - 1;
+            res -= (pos - 1) * (n - pos);
+        }
+        if (a[pos + 1] != cur and a[pos + 1] == prev)
+        {
+            res += n - pos;
+            res += (pos - 1) * (n - pos);
+        }
+        if (a[pos + 1] == cur and a[pos + 1] != prev)
+        {
+            res -= n - pos;
+            res -= (pos - 1) * (n - pos);
+        }
+        a[pos] = val;
+        cout << res << nl;
+    }
+    return SH;
+}

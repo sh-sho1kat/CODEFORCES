@@ -40,22 +40,6 @@ int main()
         cin >> n;
         ll fact = 0;
         ll i = 1, j = 1;
-        // ll ssum = ((((n % mod * (n + 1) % mod) % mod) % mod * (2 * n + 1) % mod) % mod / 6);
-        // ll nsum = 0;
-        // j = 2;
-        // i = 1;
-        // // for (ll p = 1; p < n; j++)
-        // // {
-        // //     nsum += i;
-        // //     i += j;
-        // //     p++;
-        // // }
-        // nsum = (((n % mod * (((n % mod * n % mod) % mod) + 5) % mod)) % mod / 6) - n;
-        // cout << nsum << " " << ssum << nl;
-
-        // nsum = (nsum % mod * 2) % mod;
-        // ans = ssum + nsum;
-        // ans = (ans % mod * 2022) % mod;
         ans = (((((337 % mod * (4 * n - 1) % mod) % mod) % mod * n % mod) % mod) % mod * (n + 1) % mod) % mod;
         cout << ans << nl;
     }

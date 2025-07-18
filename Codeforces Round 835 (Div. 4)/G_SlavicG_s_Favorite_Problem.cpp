@@ -1,17 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 2025-04-08 19:40:35
 #define fastio ios_base::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL)
 #define mod 1000000007
+#define inf (1LL << 62)
 #define all(x) x.begin(), x.end()
-#define eb emplace_back
-#define pf push_front
-//#define mp make_pair
+#define eb push_back
 #define ff first
 #define ss second
-#define fr(s, n) for (ll i = s; i < n; i++)
-#define yes cout << "YES" << endl
-#define no cout << "NO" << endl
+#define yes cout << "YES" << nl
+#define no cout << "NO" << nl
+#define dtob(bits, n) bitset<bits>(n).to_string()
+#define btod(bin) stoll(bin, nullptr, 2)
+#define ok cout << "Eureka" << nl
 #define nl '\n'
 #define SH 0
 typedef long long ll;
@@ -19,51 +21,36 @@ typedef pair<ll, ll> pll;
 typedef vector<ll> vl;
 typedef vector<pll> vpll;
 
-#define ok cout << "Eureka" << nl
-#define ap(arr, n)             \
-    for (ll i = 0; i < n; i++) \
-        cout << arr[i] << " "; \
-    cout << nl;
-ll x = 0;
-bool f = false;
-vector<pair<ll, ll>> adj[100005];
-vector<ll> visited(100005, 0);
-map<ll, bool> mp;
-bool teleport = false;
+const ll N = 2e5 + 5;
+vector<pair<ll, ll>> adj[N];
+map<ll, ll> mp1, mp2;
+ll dst;
 
-void dfs2(ll s)
+void(dfs(ll vartex, ll parent, ll x, ll f))
 {
-
-    if (visited[s])
-        return;
-    visited[s] = 1;
-    for (auto u : adj[s])
+    for (auto u : adj[vartex])
     {
-        x = x ^ u.ss;
-        cout << x << " ";
-        if (mp[x])
-        {
-            teleport = true;
-        }
-        dfs2(u.ff);
+        ll child = u.ff;
+        ll weight = u.ss;
+        if (child == parent or child == dst)
+            continue;
+        if (f)
+            mp1[x ^ weight]++;
+        else
+            mp2[x ^ weight]++;
+        dfs(child, vartex, x ^ weight, f);
     }
 }
-void dfs1(ll s, ll tt)
-{
-    if (visited[s])
-        return;
-    visited[s] = x;
-    for (auto u : adj[s])
-    {
 
-        // if (u.ff != tt && !mp[x])
-        {
-            x = visited[s] ^ u.ss;
-            mp[x] = true;
-        }
-        cout << x << " ";
-        dfs1(u.ff, tt);
+void reset(ll n)
+{
+    for (ll i = 1; i <= n; i++)
+    {
+        adj[i].clear();
     }
+    mp1.clear();
+    mp2.clear();
+    dst = 0;
 }
 
 int main()
@@ -73,37 +60,35 @@ int main()
     cin >> t;
     while (t--)
     {
-        ll sum = 0, tmp = 0, res = 0, cnt = 0, count = 0, ans = 0;
-        bool flag = true;
+        ll sum = 0, tmp = 0, res = 0, cnt = 0, ct = 0, ans = 0, mn = LONG_MAX, mx = 0;
+        bool flag = true, fun = false, f = false;
         ll n, a, b;
         cin >> n >> a >> b;
-        ll m = n;
-        --a, --b;
+        reset(n);
+        ll m = n - 1;
         while (m--)
         {
-            ll u, v, wt;
-            cin >> u >> v >> wt;
-            --u, --v;
-            adj[u].eb(make_pair(v, wt));
-            adj[v].eb(make_pair(u, wt));
+            ll u, v, w;
+            cin >> u >> v >> w;
+            adj[u].eb({v, w});
+            adj[v].eb({u, w});
         }
-        dfs1(a, b);
-        cout << nl;
-        fr(0, n + 2) visited[i] = 0;
-        // for (ll i = 0; i < n + 2; i++)
-        // {
-        //     // ok;
-        //     cout << visited[i] << " ";
-        // }
-        dfs2(b);
-        cout << nl;
-        teleport ? yes : no;
-        fr(0, n + 2)
+        mp1[0] = 1;
+        dst = b;
+        dfs(a, -1, 0, 1);
+        dst = -1;
+        dfs(b, -1, 0, 0);
+        map<ll, ll> mp;
+        for (auto u : mp1)
+            mp[u.ff]++;
+        for (auto u : mp2)
+            mp[u.ff]++;
+        for (auto u : mp)
         {
-            adj[i].clear();
+            if (u.ss >= 2)
+                fun = true;
         }
-        mp.clear();
-        fr(0, n + 2) visited[i] = 0;
+        fun ? yes : no;
     }
     return SH;
 }
